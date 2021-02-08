@@ -4,7 +4,7 @@ project(SFMLGame1)
 set(CMAKE_CXX_STANDARD 17)
 
 set(EXECUTABLE_NAME "SFMLGame1")
-add_executable(${EXECUTABLE_NAME} main.cpp)
+add_executable(${EXECUTABLE_NAME} main.cpp Game.cpp Game.h)
 
 # Detect and add SFML
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
