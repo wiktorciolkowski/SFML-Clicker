@@ -2,6 +2,9 @@
 
 int main()
 {
+    // Initialize srand
+    std::srand(static_cast<unsigned>(time(nullptr)));
+
     Game game;
 
     while (game.running())
