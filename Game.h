@@ -12,7 +12,9 @@ private:
     sf::RenderWindow* window;
     sf::Event event;
     sf::VideoMode videoMode;
+
     sf::Vector2i mousePosWindow;
+    sf::Vector2f mousePosView;
 
     // Game objects
     std::vector<sf::RectangleShape> enemies;
